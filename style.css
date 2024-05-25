@@ -323,7 +323,7 @@ section{
 html {
     font-size: 16px;
 }
-@media (max-width: 360px) 
+@media (max-width: 291px) 
 {
     .navbar {
         margin-top: 2rem;
@@ -364,7 +364,6 @@ html {
     .home-img {
         width:50%;
         height:50%;
-        overflow: hidden;
         margin-right:50px;
     }
     .social-media {
