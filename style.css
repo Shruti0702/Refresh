@@ -332,7 +332,6 @@ html {
         overflow-x: auto; 
         margin-bottom: 5px;
     }
-
     .navbar a {
         font-size: 1.2rem;
         margin: 0 3px; 
@@ -351,21 +350,20 @@ html {
         text-align: left;
         margin-top:20px;
     }
-
     .home-content h1 {
         font-size: 30px;
         text-align: center;
         white-space: nowrap;
     }
-
     .home-content p {
         font-size: 1.2rem;
         text-align: center;
         font-style: italic;
     }
     .home-img {
-        width: 50%;
-        height: 50%;
+        width:50%;
+        height:50%;
+        overflow: hidden;
     }
     .social-media {
         display: flex;
