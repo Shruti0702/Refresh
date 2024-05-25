@@ -306,6 +306,7 @@ section{
 .contact-left #submitt{
     align-items: center;
     padding: 15px 30px;
+    margin-left: 150px;
     font-size: 16px;
     color: black;
     background-color: gold;
