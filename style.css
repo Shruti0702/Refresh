@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family:'Nunito',sans-serif;
+}
+:root{
+    --bg-color:black;
+    --snd-bf-color:black;
+    --text-color:gold;
+    --main-color:black;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+}
+body{
+    background: var(--bg-color);
+    color: (var(--text-color));
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2 rem;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 50px;
+    padding:2 rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2.5rem;
+    color:var(--text-color);
+    font-weight: 700;
+    cursor: default;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s; /* Add transition for smooth effect */
+    font-size: 2.5rem;
+    color:gold;
+    position:relative;
+    margin:0 10px;
+}
+.navbar a:hover {
+    color:purple;
+}
+#menu-icon{
+    font-size: 3.6rem;
+    color:var(--text-color);
+    display: none;
+}
+.social-media a #gfg{
+    justify-content: center;
+    align-items: center;
+    width:2rem;
+    height:2rem;
+    font-size:2rem;
+    background-color: gold;
+    border-radius: 50%;
+}
+.social-media a:hover #gfg{
+    background-color: purple;
+}
+.home{
+    display: flex;
+    justify-content:left;
+    margin-left: 5%;
+    align-items: center;
+}
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color:gold;
+    position: relative;
+    justify-content: left;
+}
+.home-content h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color:gold;
+}
+.home-img {
+    position: relative;
+    width: 25vw;
+    margin-left: 500px; 
+    overflow: hidden;
+}
+
+.home-img img {
+    width: 100%;
+    border: 2px solid gold;
+    transition: border-color 0.3s ease;
+}
+
+.home-img::before {
+    content: '';
+    position: absolute;
+    top: -6px; 
+    right: -6px; 
+    bottom: -6px; 
+    left: -6px; 
+    border:4px solid transparent;
+    border-radius: 12px;
+    transition: border-color 0.3s ease;
+}
+
+.home-img:hover img {
+    border-color:purple
+}
+
+.home-img:hover::before {
+    border-color:gold;
+}
+
+.home-content p{
+    font-size: 1.6rem;
+    padding:space-around;
+    color:gold;
+}
+
+.social-media a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:2rem;
+    height:1rem;
+    font-size: 2rem;
+    outline: 10px;
+    color:gold;
+    margin:3rem 1.5rem 3rem 0;
+}
+.social-media a:hover{
+    color:purple;
+}
+.btn{
+    text-align: center;
+    justify-content:center;
+    display:inline-block;
+    padding:1rem;
+    font-size: 2rem;
+    color:black;
+    transition:width 1s;
+    background:gold;
+}
+.btn:hover{
+    background: purple;
+}
+.about{
+    display:flex;
+    justify-content:left;
+    margin-left: 5%;
+    align-items:left;
+    margin-top:5%;
+    height:20px;
+}
+.about-img {
+    margin-left: 13%; 
+}
+.about-img #aboutnidhi{
+    width:63%;
+    border-image-width: 13px;
+    border-style:solid;
+    border-color: gold;
+    transition:smooth 0.1s ;
+}
+#aboutnidhi:hover{
+    filter:grayscale(0.8);
+    transform:scale(1) rotate(7deg);
+}
+.heading{
+    text-align:left;
+    color:gold;
+    text-decoration:underline;
+    font-size:4.5rem;
+    justify-content: left;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height:1.2;
+}
+.about-content p{
+    font-size:1.6rem;
+    margin:2rem 0 3rem;
+    color: gold;
+}
+
+.Skills h2{
+    text-align:center;
+    margin-bottom:5rem;
+}
+.Skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+    gap:1rem;
+    margin-left:1px;
+}
+.Skills-container .Skills-box{
+    flex:1 1 3rem;
+    background:gold;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid gold;
+    transition: 0.5s ease;
+}
+.Skills-container .Skills-box:hover{
+    border-color:purple;
+    background-color: purple;
+    transform: scale(1.02);
+}
+.Skills-box{
+    font-size: 3rem;
+    color: var(--bg-color);
+}
+#head{
+    text-align: center;
+    font-size: 4.5rem;
+    color: gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+.achieve{
+    display: inline flex;
+}
+#bang{
+    justify-content: center;
+    align-items: center;
+    margin-left: 13%;
+    margin-top: 4%;
+}
+#bang img{
+    margin-top: 1px;
+    height: 30rem;
+    width:30rem;
+    border: 2px solid gold;
+}
+.info{
+    padding-top:30px;
+    margin-left: 2px;
+    gap:4px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#list{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    list-style: disc;
+    font-size: 40px;
+    color: gold;
+    line-height: 60px;
+    font-family: 'Times New Roman', Times, serif';
+}
+#contact{
+    text-align: center;
+    color:gold;
+    font-size: 4.5rem;
+    text-decoration: underline;
+}
+.contact-container{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:10px;
+}
+.contact-inputs{
+    width:400px;
+    height:50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color:black;
+}
+#message{
+    height:140px;
+    padding-top:15px;
+}
+.contact-inputs:focus{
+    border: 2px solid gold;
+}
+.contact-left #submitt{
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    background-color: gold;
+    gap:10px;
+    border:none;
+    cursor: pointer;
+}
+@media(max-width:800px)
+{
+    .contact-inputs{
+        width:80vw;
+    }
+}
+html {
+    font-size: 16px;
+}
+@media (max-width: 360px) 
+{
+    .navbar {
+        margin-top: 2rem;
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+        margin-bottom: 5px;
+    }
+
+    .navbar a {
+        font-size: 1.2rem;
+        margin: 0 3px; 
+    }
+    /* Home Section */
+    .home {
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 5%;
+    }
+    .home-content{
+        display: block;
+    }
+    .home-content h3 {
+        font-size: 1rem;
+        text-align: left;
+        margin-top:20px;
+    }
+
+    .home-content h1 {
+        font-size: 30px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+        text-align: center;
+        font-style: italic;
+    }
+    .home-img {
+        width: 50%;
+        margin: 2rem 0;
+        max-width: 100%;
+        height: 50%;
+    }
+    .social-media {
+        display: flex;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .btn{
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    #typewriter {
+        font-size: 2rem;
+        text-align: center;
+    }
+    /* About Section */
+    .about {
+        padding: 5% 5%;
+        display: block;
+    }
+    .about-content p{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading{
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .about-img{
+        margin-top: 1rem;
+        justify-content: center;
+        margin-left: 80px;
+    }
+    .about-content .btn{
+        justify-content: center;
+        margin-left: 90px;
+    }
+    /* Skills Section */
+    .Skills .heading{
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left:10px;
+    }
+
+    .Skills-container{
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Skills-box{
+        padding: 1rem 2rem 1rem 1rem;
+        height: 18rem;
+        width: auto;
+        margin-left: 5%;
+        margin-right: 8%;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Achievements Section */
+    #head {
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-align: center;
+        white-space:nowrap;
+    }
+    .achieve {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    #bang img {
+        width: 80%;
+        height: 80%;
+        margin-top: 2rem;
+    }
+    .info {
+        padding-top: 30px;
+        margin-left: auto; 
+        margin-right: auto;
+        gap: 4px;
+        text-align: center;
+    }
+    #list {
+        list-style: disc;
+        color: gold;
+        font-size:80%;
+        text-align: left;
+        padding-left: 0; 
+        line-height: 1.5;
+        list-style-position: inside;
+    }
+    /* Contact Section */
+    #contact {
+        font-size: 2rem;
+        
+    }
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .contact-left {
+        width: 90%;
+    }
+    .contact-inputs {
+        width: 100%;
+    }
+    #message {
+        height: 200px;
+    }
+    #submitt{
+        justify-content: center;
+        align-items: center;
+        margin-left: 110px;
+        margin-bottom: 1rem;
+    }
+}
