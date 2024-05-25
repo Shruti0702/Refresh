@@ -364,6 +364,7 @@ html {
         width:50%;
         height:50%;
         overflow: hidden;
+        margin-right:50px;
     }
     .social-media {
         display: flex;
