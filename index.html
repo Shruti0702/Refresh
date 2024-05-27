@@ -21,6 +21,25 @@
     <section class="home" id="home">
         <div class="home-content">
             <h3 id="typewriter">Hi,Myself</h3>
+            <script>
+            function typeWriterEffect(element, text, speed) {
+                let i = 0;
+                const typingInterval = setInterval(() => {
+                if (i < text.length)
+                {
+                    element.innerHTML += text.charAt(i);
+                    element.style.color="gold";
+                    i++;
+                }
+                else{
+                    clearInterval(typingInterval);
+                    }
+                }, speed);
+            }
+            const typewriterText = document.getElementById("typewriter").innerHTML;
+            document.getElementById("typewriter").innerHTML = ""; // Clear the existing text
+            typeWriterEffect(document.getElementById("typewriter"), typewriterText, 150);
+            </script>
             <h1>Shruti Srivastava </h1>
             <p >A creative mind who is always striving for new ways of <br> 
                problem-solving.My favorite line that fuels me,<br>
@@ -82,10 +101,10 @@
         </div>
         <div class="info">
             <ul id="list">
-                <li>Selected for student Exchange Program at AIT</li>
-                <li>NSS Volunteer</li>
-                <li>Participated in Hackathon organised by IIT-DELHI(Tryst)</li>
-                <li>Data Science Intern at CodeClause</li>
+                Selected for student Exchange Program at AIT<br>
+                NSS Volunteer<br>
+                Participated in Hackathon organised by IIT-DELHI(Tryst)<br>
+                Data Science Intern at CodeClause<br>
             </ul>
         </div>
         
