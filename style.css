@@ -321,7 +321,7 @@ section{
     }
 }
 
-@media (max-width:450px) 
+@media (max-width:780px) 
 {
     html {
         font-size: 20px;
@@ -365,12 +365,13 @@ section{
         font-size: 1.2rem;
         text-align:center;
         font-style: italic;
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .home-img{
         height: 50%;
         display: inline;
         width: 50%;
+        margin-left: 50px;
     }
     .social-media {
         display: flex;
@@ -381,8 +382,8 @@ section{
         height: 50%;
         width: 30%;
         font-size: 1rem;
-        margin-top: 20px;
-        margin-left:10rem;        
+        margin-top: 10px;
+        margin-left:5rem;        
     }
     #typewriter {
         font-size: 2rem;
