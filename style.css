@@ -345,6 +345,7 @@ section{
     .home-content{
         display: block;
         align-items: center;
+        justify-content: center;
     }
     .home-content h3 {
         font-size: 1rem;
