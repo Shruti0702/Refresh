@@ -341,6 +341,7 @@ section{
     /* Home Section */
     .home {
         display: block;
+        align-items: center;
     }
     .home-content{
         display: block;
