@@ -371,7 +371,7 @@ section{
         height: 50%;
         display: inline;
         width: 50%;
-        margin-left: 50px;
+        margin-left:2rem;
     }
     .social-media {
         display: flex;
@@ -383,7 +383,7 @@ section{
         width: 50%;
         font-size: 1rem;
         margin-top: 10px;
-        margin-left: 50px;   
+        margin-left: 60px;   
     }
     #typewriter {
         font-size: 2rem;
@@ -405,7 +405,7 @@ section{
     .heading{
         font-size: 50px;
         text-align: center;
-        margin-left: 250px;
+        margin-left: 50px;
     }
     .about-img{
         margin-top: 3rem;
@@ -415,7 +415,7 @@ section{
        
     }
     .about-content .btn{    
-        margin-left: 12rem;
+        margin-left: 10rem;
     }
     /* Skills Section */
     .Skills .heading{
@@ -425,19 +425,19 @@ section{
         text-align: center;
         margin-bottom: 20px;
         margin-top: 2px;
-        margin-left:10px;
+        margin-left:12px;
     }
 
     .Skills-container{
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         display: flex;
         justify-content: center;
     }
     .Skills-box{
-        padding: 1rem 2rem 1rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         height: 18rem;
-        width: auto;
-        margin-left: 5%;
+        width: 50%;
+        margin-left: 5px;
         margin-right: 8%;
         align-items: center;
         justify-content: center;
@@ -447,6 +447,7 @@ section{
         font-size: 2rem;
         margin-top: 5rem;
         text-align: center;
+        margin-left: 5px;
         white-space:nowrap;
 
     }
@@ -464,14 +465,13 @@ section{
     .info {
         padding-top: 5px;
         margin-left: auto; 
-        margin-right: auto;
         text-align: center;
     }
     #list {
         color: gold;
         font-size:1rem;
         text-align: left;
-        margin-left: 20px;
+        margin-left: 15px;
       
     }
     /* Contact Section */
@@ -484,6 +484,7 @@ section{
         flex-direction: column;
         align-items: center;
         height: auto;
+        margin-left: 5px;
     }
     .contact-left {
         width: 90%;
@@ -495,7 +496,7 @@ section{
         height: 200px;
     }
     .contact-left #submitt{
-        margin-left: 250px;
+        margin-left: 80px;
         margin-bottom: 2rem;
     }
 }
