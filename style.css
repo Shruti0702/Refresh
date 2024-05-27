@@ -380,9 +380,10 @@ section{
     }
     .btn{
         height: 50%;
-        width: 30%;
+        width: 50%;
         font-size: 1rem;
-        margin-top: 10px;   
+        margin-top: 10px;
+        margin-left: 50px;   
     }
     #typewriter {
         font-size: 2rem;
