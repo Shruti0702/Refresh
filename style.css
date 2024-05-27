@@ -354,11 +354,10 @@ section{
         margin-top:50px;
         text-align: center;
         margin-left:5rem;
-        margin-right: 60px;
     }
     .home-content h1 {
         font-size: 30px;
-        margin-left: 5rem;
+        margin-left: 6rem;
         white-space: nowrap;
         text-align: center;
     }
@@ -366,7 +365,7 @@ section{
         font-size: 1.2rem;
         text-align:center;
         font-style: italic;
-        margin-left: 50px;
+        margin-left: 60px;
     }
     .home-img {
         justify-content: center;
@@ -374,20 +373,19 @@ section{
         display: inline;
         height: 100%;
         width:100%;
-        right: 20px;
+        margin-left: 50px;
     }
     .social-media {
         display: flex;
         justify-content: center;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
     }
     .btn{
-        height: auto;
-        width: auto;
+        height: 50%;
+        width: 50%;
         font-size: 1rem;
         margin-top: 20px;
-        margin-left: 12rem;
-        
+        margin-left:10rem;        
     }
     #typewriter {
         font-size: 2rem;
