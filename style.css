@@ -344,10 +344,12 @@ section{
     }
     .home-content{
         display: block;
+        align-items: center;
     }
     .home-content h3 {
         font-size: 1rem;
         margin-top:50px;
+        text-align: center;
     }
     .home-content h1 {
         font-size: 30px;
