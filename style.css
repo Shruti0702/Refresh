@@ -353,7 +353,7 @@ section{
         font-size: 1rem;
         margin-top:50px;
         text-align: center;
-        margin-left:6rem;
+        margin-left:50px;
     }
     .home-content h1 {
         font-size: 30px;
@@ -367,25 +367,22 @@ section{
         font-style: italic;
         margin-left: 60px;
     }
-    .home-img {
-        justify-content: center;
-        align-items: center;
+    .home-img{
+        height: 50%;
         display: inline;
-        height: 100%;
-        width:100%;
-        margin-left: 80px;
+        width: 50%;
     }
     .social-media {
         display: flex;
         justify-content: center;
         margin-left: 4.5rem;
     }
-    .home-content .btn{
+    .btn{
         height: 50%;
-        width: 50%;
+        width: 30%;
         font-size: 1rem;
         margin-top: 20px;
-        margin-left:20rem;        
+        margin-left:15rem;        
     }
     #typewriter {
         font-size: 2rem;
@@ -393,29 +390,31 @@ section{
     }
     /* About Section */
     .about {
+        margin-top: 10rem;
         display: block;
+        margin-bottom: 12rem;
     }
     .about-content p{
         font-size: 1.2rem;
         text-align: center;
         margin-bottom: 0;
-        margin-left: 50px;
-        justify-content: center;
-        align-items: center;
+        margin-right: 10px;
+        
     }
     .heading{
         font-size: 50px;
         text-align: center;
-        margin-left: 100px;
+        margin-left: 250px;
     }
     .about-img{
-        margin-top: 1rem;
+        margin-top: 3rem;
         width: 100%;
         height: 100%;
         margin-left: 5rem;
+       
     }
     .about-content .btn{    
-        margin-left: 5rem;
+        margin-left: 12rem;
     }
     /* Skills Section */
     .Skills .heading{
