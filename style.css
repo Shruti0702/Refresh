@@ -383,7 +383,7 @@ section{
         width: 50%;
         font-size: 1rem;
         margin-top: 10px;
-        margin-left: 100px;   
+        margin-left: 120px;   
     }
     #typewriter {
         font-size: 2rem;
@@ -399,13 +399,12 @@ section{
         font-size: 1.2rem;
         text-align: center;
         margin-bottom: 0;
-        margin-right: 10px;
-        
+        margin-left: 20px;        
     }
     .heading{
         font-size: 50px;
         text-align: center;
-        margin-left: 70px;
+        margin-left: 80px;
     }
     .about-img{
         margin-top: 3rem;
@@ -415,7 +414,7 @@ section{
        
     }
     .about-content .btn{    
-        margin-left: 5rem;
+        margin-left: 6rem;
     }
     /* Skills Section */
     .Skills .heading{
@@ -425,20 +424,19 @@ section{
         text-align: center;
         margin-bottom: 20px;
         margin-top: 2px;
-        margin-left:12px;
+        margin-left:20px;
     }
 
     .Skills-container{
-        margin-left: 1.5rem;
+        margin-left: 2rem;
         display: flex;
         justify-content: center;
     }
     .Skills-box{
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 1rem 2rem 1rem 1rem;
         height: 18rem;
-        width: 50%;
+        width: 70%;
         margin-left: 5px;
-        margin-right: 8%;
         align-items: center;
         justify-content: center;
     }
@@ -447,7 +445,7 @@ section{
         font-size: 2rem;
         margin-top: 5rem;
         text-align: center;
-        margin-left: 5px;
+        margin-left: 15px;
         white-space:nowrap;
 
     }
@@ -496,7 +494,7 @@ section{
         height: 200px;
     }
     .contact-left #submitt{
-        margin-left: 80px;
+        margin-left: 100px;
         margin-bottom: 2rem;
     }
 }
