@@ -321,7 +321,7 @@ section{
     }
 }
 
-@media (max-width: 671px) 
+@media (max-width: 700px) 
 {
     html {
         font-size: 20px;
@@ -349,7 +349,7 @@ section{
         font-size: 1rem;
         margin-top:50px;
         text-align: center;
-        
+        margin-left: 50px;
     }
     .home-content h1 {
         font-size: 30px;
