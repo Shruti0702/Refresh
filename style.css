@@ -347,11 +347,13 @@ section{
         display: block;
         align-items: center;
         justify-content: center;
+        
     }
     .home-content h3 {
         font-size: 1rem;
         margin-top:50px;
         text-align: center;
+        margin-left: 50px;
     }
     .home-content h1 {
         font-size: 30px;
