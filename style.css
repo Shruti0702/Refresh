@@ -378,7 +378,7 @@ section{
     .social-media {
         display: flex;
         justify-content: center;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
     .btn{
         height: 50%;
