@@ -321,7 +321,7 @@ section{
     }
 }
 
-@media (max-width:600px) 
+@media (max-width:750px) 
 {
     html {
         font-size: 20px;
@@ -380,12 +380,12 @@ section{
         justify-content: center;
         margin-left: 4.5rem;
     }
-    .btn{
+    .home-content .btn{
         height: 50%;
         width: 50%;
         font-size: 1rem;
         margin-top: 20px;
-        margin-left:30rem;        
+        margin-left:20rem;        
     }
     #typewriter {
         font-size: 2rem;
